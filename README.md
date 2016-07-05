@@ -1,53 +1,15 @@
 # Ember-example
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a Example App to do an integration with an example API:
 
-## Prerequisites
+`http://ec2-54-172-57-71.compute-1.amazonaws.com:5000/api/hotels/17219/rooms/2`
 
-You will need the following things properly installed on your computer.
+The `hotels/{hotel_id}/rooms/{room_id}` is the schema. CORS is enabled on server.
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+## The Test
 
-## Installation
+Fork this project, configure the adapter os application, setup the model and routes to do a `GET`on our API.
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+After that,  commit in a public repository. Send the link to us.
 
-## Running / Development
-
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Good lucky!
